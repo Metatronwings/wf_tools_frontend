@@ -111,296 +111,197 @@ function computePaidDiamonds() {
   return ret
 }
 // 这里之后是代码生成的
-let yong_qi_chi_draws = ref(0)
-let yong_qi_chi_stars = ref(0)
+let san_jie_chi_li_yu_li_chong_li_cang_wei_draws = ref(0)
+let san_jie_chi_li_yu_li_chong_li_cang_wei_stars = ref(0)
 
-let shui_shu_xing_chi_1_draws = ref(0)
-let shui_shu_xing_chi_1_stars = ref(0)
+let si_jie_chi_li_ji_li_yu_li_chong_li_cang_wei_draws = ref(0)
+let si_jie_chi_li_ji_li_yu_li_chong_li_cang_wei_stars = ref(0)
 
-let yong_ai_shui_gay_chi_draws = ref(0)
-let yong_ai_shui_gay_chi_stars = ref(0)
+let lei_mo_nv_yong_qi_yong_hu_fu_ke_draws = ref(0)
+let lei_mo_nv_yong_qi_yong_hu_fu_ke_stars = ref(0)
 
-let sheng_nv_deng_nai_chi_draws = ref(0)
-let sheng_nv_deng_nai_chi_stars = ref(0)
+let shui_wang_zi_yong_ai_fu_ke_draws = ref(0)
+let shui_wang_zi_yong_ai_fu_ke_stars = ref(0)
 
-let zuo_he_yi_qi_draws = ref(0)
-let zuo_he_yi_qi_stars = ref(0)
+let zuo_he_fu_ke_si_he_yi_draws = ref(0)
+let zuo_he_fu_ke_si_he_yi_stars = ref(0)
 
-let zuo_he_er_qi_draws = ref(0)
-let zuo_he_er_qi_stars = ref(0)
+let guang_pao_sheng_nv_chang_zhu_pian_ke_draws = ref(0)
+let guang_pao_sheng_nv_chang_zhu_pian_ke_stars = ref(0)
 
-let wan_sheng_ke_xue_jia_draws = ref(0)
-let wan_sheng_ke_xue_jia_stars = ref(0)
+let chun_niu_fu_ke_draws = ref(0)
+let chun_niu_fu_ke_stars = ref(0)
 
-let huo_lao_shi_draws = ref(0)
-let huo_lao_shi_stars = ref(0)
-
-let huang_nv_he_liu_ge_zi_de_feng_jue_se_draws = ref(0)
-let huang_nv_he_liu_ge_zi_de_feng_jue_se_stars = ref(0)
-
-let li_ji_draws = ref(0)
-let li_ji_stars = ref(0)
-
-let yi_zhou_nian_san_jie_draws = ref(0)
-let yi_zhou_nian_san_jie_stars = ref(0)
-
-let sheng_long_draws = ref(0)
-let sheng_long_stars = ref(0)
-
-let niu_niu_draws = ref(0)
-let niu_niu_stars = ref(0)
-
-let lei_zhi_zun_yi_ji_EMT_RE0_lian_dong_draws = ref(0)
-let lei_zhi_zun_yi_ji_EMT_RE0_lian_dong_stars = ref(0)
+let huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_draws = ref(0)
+let huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_stars = ref(0)
 
 function computeConsumeDiamonds() {
   let ret = 0
-  ret += yong_qi_chi_draws.value
-  ret += shui_shu_xing_chi_1_draws.value
-  ret += yong_ai_shui_gay_chi_draws.value
-  ret += sheng_nv_deng_nai_chi_draws.value
-  ret += zuo_he_yi_qi_draws.value
-  ret += zuo_he_er_qi_draws.value
-  ret += wan_sheng_ke_xue_jia_draws.value
-  ret += huo_lao_shi_draws.value
-  ret += huang_nv_he_liu_ge_zi_de_feng_jue_se_draws.value
-  ret += li_ji_draws.value
-  ret += yi_zhou_nian_san_jie_draws.value
-  ret += sheng_long_draws.value
-  ret += niu_niu_draws.value
-  ret += lei_zhi_zun_yi_ji_EMT_RE0_lian_dong_draws.value
+  ret += san_jie_chi_li_yu_li_chong_li_cang_wei_draws.value
+  ret += si_jie_chi_li_ji_li_yu_li_chong_li_cang_wei_draws.value
+  ret += lei_mo_nv_yong_qi_yong_hu_fu_ke_draws.value
+  ret += shui_wang_zi_yong_ai_fu_ke_draws.value
+  ret += zuo_he_fu_ke_si_he_yi_draws.value
+  ret += guang_pao_sheng_nv_chang_zhu_pian_ke_draws.value
+  ret += chun_niu_fu_ke_draws.value
+  ret += huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_draws.value
   return 150 * ret
 }
 function computeConsumeStars() {
   let ret = 0
-  ret += yong_qi_chi_stars.value
-  ret += shui_shu_xing_chi_1_stars.value
-  ret += yong_ai_shui_gay_chi_stars.value
-  ret += sheng_nv_deng_nai_chi_stars.value
-  ret += zuo_he_yi_qi_stars.value
-  ret += zuo_he_er_qi_stars.value
-  ret += wan_sheng_ke_xue_jia_stars.value
-  ret += huo_lao_shi_stars.value
-  ret += huang_nv_he_liu_ge_zi_de_feng_jue_se_stars.value
-  ret += li_ji_stars.value
-  ret += yi_zhou_nian_san_jie_stars.value
-  ret += sheng_long_stars.value
-  ret += niu_niu_stars.value
-  ret += lei_zhi_zun_yi_ji_EMT_RE0_lian_dong_stars.value
+  ret += san_jie_chi_li_yu_li_chong_li_cang_wei_stars.value
+  ret += si_jie_chi_li_ji_li_yu_li_chong_li_cang_wei_stars.value
+  ret += lei_mo_nv_yong_qi_yong_hu_fu_ke_stars.value
+  ret += shui_wang_zi_yong_ai_fu_ke_stars.value
+  ret += zuo_he_fu_ke_si_he_yi_stars.value
+  ret += guang_pao_sheng_nv_chang_zhu_pian_ke_stars.value
+  ret += chun_niu_fu_ke_stars.value
+  ret += huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_stars.value
   return ret
 }
 
 </script><template>
   <n-layout position="absolute">
     <n-layout has-sider position="absolute" style="top: 20px; bottom: 20px;">
-      <n-layout-sider bordered content-style="padding: 12px;" width="40%">
+      <n-layout-sider bordered content-style="padding: 24px;" width="30%">
         <n-space vertical>
-          <n-input-number v-model:value="free_diamond" :min="0" placeholder="免费钻">
-            <!-- <template #prefix>免费钻</template> -->
+          <n-input-number v-model:value="free_diamond" :min="0">
+            <template #prefix>免费钻</template>
           </n-input-number>
-          <n-input-number v-model:value="paid_diamond" :min="0" placeholder="付费钻">
-            <!-- <template #prefix>付费钻</template> -->
+          <n-input-number v-model:value="paid_diamond" :min="0">
+            <template #prefix>付费钻</template>
           </n-input-number>
-          <n-input-number v-model:value="star_piece" :min="0" placeholder="星碎">
-            <!-- <template #prefix>星碎</template> -->
+          <n-input-number v-model:value="star_piece" :min="0">
+            <template #prefix>星碎</template>
           </n-input-number>
-          <n-input-number v-model:value="ten_pull_ticket" :min="0" placeholder="十连券">
-            <!-- <template #prefix>十连券</template> -->
+          <n-input-number v-model:value="ten_pull_ticket" :min="0">
+            <template #prefix>十连券</template>
           </n-input-number>
-          <n-input-number v-model:value="single_pull_ticket" :min="0" placeholder="单抽券">
-            <!-- <template #prefix>单抽券</template> -->
+          <n-input-number v-model:value="single_pull_ticket" :min="0">
+            <template #prefix>单抽券</template>
           </n-input-number>
-          <n-input-number v-model:value="month_card_remain_days" :min="0" placeholder="月卡几天到期？">
-            <!-- <template #prefix>月卡几天到期？</template> -->
+          <n-input-number v-model:value="month_card_remain_days" :min="0">
+            <template #prefix>月卡还有几天到期？</template>
           </n-input-number>
           <n-divider />
           <n-switch v-model:value="is_month_card_purchased">
             <template #checked>我买月卡</template>
             <template #unchecked>我不买月卡</template>
           </n-switch>
-          <n-input-number v-model:value="small_paid_diamond_set_count" :min="0" :max="8" placeholder="每月25几次？">
-            <!-- <template #prefix>每月25几次？</template> -->
+          <n-input-number v-model:value="small_paid_diamond_set_count" :min="0">
+            <template #prefix>每个月 25 买几次？</template>
           </n-input-number>
-          <n-input-number v-model:value="ten_pull_ticket_count" :min="0" :max="3" placeholder="每月98几次？">
-            <!-- <template #prefix>每月98几次？</template> -->
+          <n-input-number v-model:value="ten_pull_ticket_count" :min="0">
+            <template #prefix>每个月 98 买几次？</template>
           </n-input-number>
-          <n-input-number v-model:value="large_paid_diamond_set_count" :min="0" :max="3" placeholder="每月518几次？">
-            <!-- <template #prefix>每月518几次？</template> -->
+          <n-input-number v-model:value="large_paid_diamond_set_count" :min="0">
+            <template #prefix>每个月 518 买几次？</template>
           </n-input-number>
           <n-divider />
           <n-switch v-model:value="is_daily_draw_card">
             <template #checked>抽TM的！</template>
             <template #unchecked>我就不每日单抽</template>
           </n-switch>
-          <n-input-number v-model:value="extra_free_diamond" :min="0" placeholder="额外免费钻">
-            <!-- <template #prefix>额外免费钻</template> -->
+          <n-input-number v-model:value="extra_free_diamond" :min="0">
+            <template #prefix>额外免费钻</template>
           </n-input-number>
-          <n-input-number v-model:value="extra_paid_diamond" :min="0" placeholder="额外付费钻">
-            <!-- <template #prefix>额外付费钻</template> -->
+          <n-input-number v-model:value="extra_paid_diamond" :min="0">
+            <template #prefix>额外付费钻</template>
           </n-input-number>
-          <n-divider />设定一个日期然后开始计算吧！
-          <n-date-picker v-model:value="timestamp" type="date" clearable />
-          <n-button @click="computeDiamonds">点击计算</n-button>
-          <n-space vertical>
-            <n-space>等价免费钻剩余：{{ total_free_diamond }}</n-space>
-            <n-space>付费钻剩余：{{ total_paid_diamond }}</n-space>
-            <n-space>星碎剩余：(先占个位)</n-space>
-          </n-space>
+          <n-divider />
+          <n-button @click="computeDiamonds">
+            点击计算
+          </n-button>
+            等价免费钻剩余：{{ total_free_diamond }}
         </n-space>
       </n-layout-sider>
-      <n-layout content-style="padding: 12px;" :native-scrollbar="false">
+      <n-layout content-style="padding: 24px;" :native-scrollbar="false">
         <n-timeline>
-          <n-timeline-item type="warning" title="泳奇池" time="2022-06-02">
+          <n-timeline-item type="error" title="三杰池礼鱼礼铳礼仓唯" time="2023-03-20">
             <n-space vertical #default>
-              泳奇、泳虎，还有两个没啥用的四星。
-              <n-input-number v-model:value="yong_qi_chi_draws" :min="0">
-                <template #prefix>多少抽？</template>
+              1.5周年三杰
+              <n-input-number v-model:value="san_jie_chi_li_yu_li_chong_li_cang_wei_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
               </n-input-number>
-              <n-input-number v-model:value="yong_qi_chi_stars" :min="0">
-                <template #prefix>多少星碎？</template>
+              <n-input-number v-model:value="san_jie_chi_li_yu_li_chong_li_cang_wei_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
               </n-input-number>
             </n-space>
           </n-timeline-item>
-          <n-timeline-item type="info" title="水属性池1" time="2022-06-09">
+          <n-timeline-item type="warning" title="四杰池礼机礼鱼礼铳礼仓唯" time="2023-03-20">
             <n-space vertical #default>
-              不会真有人抽属性池子吧？
-              <n-input-number v-model:value="shui_shu_xing_chi_1_draws" :min="0">
-                <template #prefix>多少抽？</template>
+              1.5周年三杰加礼机
+              <n-input-number v-model:value="si_jie_chi_li_ji_li_yu_li_chong_li_cang_wei_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
               </n-input-number>
-              <n-input-number v-model:value="shui_shu_xing_chi_1_stars" :min="0">
-                <template #prefix>多少星碎？</template>
+              <n-input-number v-model:value="si_jie_chi_li_ji_li_yu_li_chong_li_cang_wei_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
               </n-input-number>
             </n-space>
           </n-timeline-item>
-          <n-timeline-item type="success" title="泳爱水gay池" time="2022-06-16">
+          <n-timeline-item type="success" title="雷魔女泳奇泳虎复刻" time="2023-03-23">
             <n-space vertical #default>
-              水gay，踢罐好手。
-              <n-input-number v-model:value="yong_ai_shui_gay_chi_draws" :min="0">
-                <template #prefix>多少抽？</template>
+              拿下雷魔女就在今天
+              <n-input-number v-model:value="lei_mo_nv_yong_qi_yong_hu_fu_ke_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
               </n-input-number>
-              <n-input-number v-model:value="yong_ai_shui_gay_chi_stars" :min="0">
-                <template #prefix>多少星碎？</template>
+              <n-input-number v-model:value="lei_mo_nv_yong_qi_yong_hu_fu_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
               </n-input-number>
             </n-space>
           </n-timeline-item>
-          <n-timeline-item type="warning" title="圣女灯奶池" time="2022-06-30">
+          <n-timeline-item type="info" title="水王子泳爱复刻" time="2023-03-30">
             <n-space vertical #default>
-              太强啦，可惜是两个常驻。不过仍然值得一抽。
-              <n-input-number v-model:value="sheng_nv_deng_nai_chi_draws" :min="0">
-                <template #prefix>多少抽？</template>
+              没啥用的池子
+              <n-input-number v-model:value="shui_wang_zi_yong_ai_fu_ke_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
               </n-input-number>
-              <n-input-number v-model:value="sheng_nv_deng_nai_chi_stars" :min="0">
-                <template #prefix>多少星碎？</template>
+              <n-input-number v-model:value="shui_wang_zi_yong_ai_fu_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
               </n-input-number>
             </n-space>
           </n-timeline-item>
-          <n-timeline-item type="success" title="佐贺一期" time="2022-07-21">
+          <n-timeline-item type="success" title="佐贺复刻四合一" time="2023-04-06">
             <n-space vertical #default>
-              四星夕雾比较有用，余钻多可以抽一下。
-              <n-input-number v-model:value="zuo_he_yi_qi_draws" :min="0">
-                <template #prefix>多少抽？</template>
+              佐贺厨可抽
+              <n-input-number v-model:value="zuo_he_fu_ke_si_he_yi_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
               </n-input-number>
-              <n-input-number v-model:value="zuo_he_yi_qi_stars" :min="0">
-                <template #prefix>多少星碎？</template>
+              <n-input-number v-model:value="zuo_he_fu_ke_si_he_yi_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
               </n-input-number>
             </n-space>
           </n-timeline-item>
-          <n-timeline-item type="success" title="佐贺二期" time="2022-07-28">
+          <n-timeline-item type="info" title="光炮圣女常驻骗氪" time="2023-04-13">
             <n-space vertical #default>
-              微氪党可以跳过。
-              <n-input-number v-model:value="zuo_he_er_qi_draws" :min="0">
-                <template #prefix>多少抽？</template>
+              不抽
+              <n-input-number v-model:value="guang_pao_sheng_nv_chang_zhu_pian_ke_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
               </n-input-number>
-              <n-input-number v-model:value="zuo_he_er_qi_stars" :min="0">
-                <template #prefix>多少星碎？</template>
+              <n-input-number v-model:value="guang_pao_sheng_nv_chang_zhu_pian_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
               </n-input-number>
             </n-space>
           </n-timeline-item>
-          <n-timeline-item type="warning" title="万圣科学家" time="2022-08-04">
+          <n-timeline-item type="error" title="春牛复刻" time="2023-04-20">
             <n-space vertical #default>
-              四星万圣科学家是大奖，值得捞一下。
-              <n-input-number v-model:value="wan_sheng_ke_xue_jia_draws" :min="0">
-                <template #prefix>多少抽？</template>
+              没有牛牛的赶紧拿下
+              <n-input-number v-model:value="chun_niu_fu_ke_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
               </n-input-number>
-              <n-input-number v-model:value="wan_sheng_ke_xue_jia_stars" :min="0">
-                <template #prefix>多少星碎？</template>
+              <n-input-number v-model:value="chun_niu_fu_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
               </n-input-number>
             </n-space>
           </n-timeline-item>
-          <n-timeline-item type="success" title="火老师" time="2022-08-18">
+          <n-timeline-item type="info" title="火鼠蛾子老男人灯奶骗氪" time="2023-04-27">
             <n-space vertical #default>
-              一周年就要到了，微氪不要下池哦。（虽然火老师很强）
-              <n-input-number v-model:value="huo_lao_shi_draws" :min="0">
-                <template #prefix>多少抽？</template>
+              真的不想抽啊
+              <n-input-number v-model:value="huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
               </n-input-number>
-              <n-input-number v-model:value="huo_lao_shi_stars" :min="0">
-                <template #prefix>多少星碎？</template>
-              </n-input-number>
-            </n-space>
-          </n-timeline-item>
-          <n-timeline-item type="success" title="皇女和六个字的风角色" time="2022-08-25">
-            <n-space vertical #default>
-              一周年就要到了，微氪不要下池哦。
-              <n-input-number v-model:value="huang_nv_he_liu_ge_zi_de_feng_jue_se_draws" :min="0">
-                <template #prefix>多少抽？</template>
-              </n-input-number>
-              <n-input-number v-model:value="huang_nv_he_liu_ge_zi_de_feng_jue_se_stars" :min="0">
-                <template #prefix>多少星碎？</template>
-              </n-input-number>
-            </n-space>
-          </n-timeline-item>
-          <n-timeline-item type="error" title="里脊" time="2022-09-25">
-            <n-space vertical #default>
-              理论上所有人都要下的池子。
-              <n-input-number v-model:value="li_ji_draws" :min="0">
-                <template #prefix>多少抽？</template>
-              </n-input-number>
-              <n-input-number v-model:value="li_ji_stars" :min="0">
-                <template #prefix>多少星碎？</template>
-              </n-input-number>
-            </n-space>
-          </n-timeline-item>
-          <n-timeline-item type="error" title="一周年三杰" time="2022-10-01">
-            <n-space vertical #default>
-              理论上所有人都要下井的池子。
-              <n-input-number v-model:value="yi_zhou_nian_san_jie_draws" :min="0">
-                <template #prefix>多少抽？</template>
-              </n-input-number>
-              <n-input-number v-model:value="yi_zhou_nian_san_jie_stars" :min="0">
-                <template #prefix>多少星碎？</template>
-              </n-input-number>
-            </n-space>
-          </n-timeline-item>
-          <n-timeline-item type="error" title="圣龙" time="2022-11-01">
-            <n-space vertical #default>
-              一周年之后的限定连发，其一。
-              <n-input-number v-model:value="sheng_long_draws" :min="0">
-                <template #prefix>多少抽？</template>
-              </n-input-number>
-              <n-input-number v-model:value="sheng_long_stars" :min="0">
-                <template #prefix>多少星碎？</template>
-              </n-input-number>
-            </n-space>
-          </n-timeline-item>
-          <n-timeline-item type="error" title="牛牛" time="2022-11-14">
-            <n-space vertical #default>
-              一周年之后的限定连发，其二。
-              <n-input-number v-model:value="niu_niu_draws" :min="0">
-                <template #prefix>多少抽？</template>
-              </n-input-number>
-              <n-input-number v-model:value="niu_niu_stars" :min="0">
-                <template #prefix>多少星碎？</template>
-              </n-input-number>
-            </n-space>
-          </n-timeline-item>
-          <n-timeline-item type="error" title="蕾至尊以及EMT_RE0联动" time="2022-12-01">
-            <n-space vertical #default>
-              一周年之后的限定连发，其三。
-              <n-input-number v-model:value="lei_zhi_zun_yi_ji_EMT_RE0_lian_dong_draws" :min="0">
-                <template #prefix>多少抽？</template>
-              </n-input-number>
-              <n-input-number v-model:value="lei_zhi_zun_yi_ji_EMT_RE0_lian_dong_stars" :min="0">
-                <template #prefix>多少星碎？</template>
+              <n-input-number v-model:value="huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
               </n-input-number>
             </n-space>
           </n-timeline-item>
