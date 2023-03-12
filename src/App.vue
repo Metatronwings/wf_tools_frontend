@@ -43,7 +43,7 @@ function computeDiamonds() {
   }
   total_free_diamond.value = free_diamond.value
     + 150 * single_pull_ticket.value
-    + 1500 * (ten_pull_ticket.value + ten_pull_ticket_count.value)
+    + 1500 * (ten_pull_ticket.value)
     + computeFreeDiamonds()
     + extra_free_diamond.value
   if (paid_diamond.value === undefined) {
@@ -77,13 +77,15 @@ function computeFreeDiamonds() {
 
   let ret = 0
   if (is_month_card_purchased.value) {
-    ret += 50 * remain_days
+    ret += 100 * remain_days
   }
   // 还有每日任务的钻呢
   ret += 50 * remain_days
   // 还有工资塔的钻呢
   let remain_months = Math.floor(remain_days / 30)
   ret += 1500 * remain_months
+  // 98 的钻也要算上
+  ret += 1500 * ten_pull_ticket_count.value * remain_months
   return ret
 }
 
