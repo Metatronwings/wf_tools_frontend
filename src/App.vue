@@ -81,6 +81,8 @@ function computeFreeDiamonds() {
   }
   // 还有每日任务的钻呢
   ret += 50 * remain_days
+  // 加上测算得来的每日福利钻(暂时记为每日 450 钻)
+  ret += 450 * remain_days
   // 还有工资塔的钻呢
   let remain_months = Math.floor(remain_days / 30)
   ret += 1500 * remain_months
@@ -331,6 +333,7 @@ function computeConsumeStars() {
             <template #prefix>额外付费钻</template>
           </n-input-number>
           <n-divider />
+            每日获取的免费钻计算公式如下: 100(月卡) + 50(每日任务) + 50(幽玄域) + 450(估算每日福利)
           <n-date-picker v-model:value="timestamp" type="date" />
           <n-button @click="computeDiamonds">
             点击计算
