@@ -331,6 +331,7 @@ function computeConsumeStars() {
             <template #prefix>额外付费钻</template>
           </n-input-number>
           <n-divider />
+          <n-date-picker v-model:value="timestamp" type="date" />
           <n-button @click="computeDiamonds">
             点击计算
           </n-button>
