@@ -23,7 +23,7 @@ let extra_paid_diamond = ref()
 let total_free_diamond = ref(0)
 let total_paid_diamond = ref(0)
 
-let timestamp = ref(167241600e4)
+let timestamp = ref(170006400e4)
 
 function computeDiamonds() {
   if (free_diamond.value === undefined) {
