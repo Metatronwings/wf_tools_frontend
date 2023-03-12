@@ -137,6 +137,78 @@ let chun_niu_fu_ke_stars = ref(0)
 let huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_draws = ref(0)
 let huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_stars = ref(0)
 
+let zang_bian_ya_li_ya_draws = ref(0)
+let zang_bian_ya_li_ya_stars = ref(0)
+
+let yong_huang_nv_yong_jing_cha_yong_long_qi_jia_shui_da_nai_draws = ref(0)
+let yong_huang_nv_yong_jing_cha_yong_long_qi_jia_shui_da_nai_stars = ref(0)
+
+let long_quan_shui_tan_zhan_tie_pian_ke_chi_draws = ref(0)
+let long_quan_shui_tan_zhan_tie_pian_ke_chi_stars = ref(0)
+
+let yong_02_draws = ref(0)
+let yong_02_stars = ref(0)
+
+let shen_hai_nai_guang_wang_zi_feng_nai_huo_lang_yi_yi_bu_ming_chi_draws = ref(0)
+let shen_hai_nai_guang_wang_zi_feng_nai_huo_lang_yi_yi_bu_ming_chi_stars = ref(0)
+
+let yong_e_yong_hu_draws = ref(0)
+let yong_e_yong_hu_stars = ref(0)
+
+let liang_gong_chun_ri_ka_chi_draws = ref(0)
+let liang_gong_chun_ri_ka_chi_stars = ref(0)
+
+let yu_feng_gei_yu_hei_draws = ref(0)
+let yu_feng_gei_yu_hei_stars = ref(0)
+
+let xin_jiao_guang_da_shu_draws = ref(0)
+let xin_jiao_guang_da_shu_stars = ref(0)
+
+let gou_quan_draws = ref(0)
+let gou_quan_stars = ref(0)
+
+let wan_sheng_yi_qi_fu_ke_wan_sheng_ge_ji_wan_hua_draws = ref(0)
+let wan_sheng_yi_qi_fu_ke_wan_sheng_ge_ji_wan_hua_stars = ref(0)
+
+let wan_sheng_er_qi_wan_sheng_zou_zhe_wan_sheng_tai_mu_draws = ref(0)
+let wan_sheng_er_qi_wan_sheng_zou_zhe_wan_sheng_tai_mu_stars = ref(0)
+
+let yuki_ci_xiao_gui_draws = ref(0)
+let yuki_ci_xiao_gui_stars = ref(0)
+
+let da_lei_long_chang_zhu_draws = ref(0)
+let da_lei_long_chang_zhu_stars = ref(0)
+
+let li_chong_li_yu_li_cang_wei_fu_ke_draws = ref(0)
+let li_chong_li_yu_li_cang_wei_fu_ke_stars = ref(0)
+
+let er_zhou_nian_bai_mao_xing_chuan_draws = ref(0)
+let er_zhou_nian_bai_mao_xing_chuan_stars = ref(0)
+
+let er_zhou_nian_xing_bai_xing_bing_le_draws = ref(0)
+let er_zhou_nian_xing_bai_xing_bing_le_stars = ref(0)
+
+let sheng_dan_tu_tu_sheng_dan_bing_mo_yan_draws = ref(0)
+let sheng_dan_tu_tu_sheng_dan_bing_mo_yan_stars = ref(0)
+
+let sheng_long_sheng_a_fu_ke_draws = ref(0)
+let sheng_long_sheng_a_fu_ke_stars = ref(0)
+
+let chun_mo_nv_hu_shen_jiang_chun_sheng_nv_draws = ref(0)
+let chun_mo_nv_hu_shen_jiang_chun_sheng_nv_stars = ref(0)
+
+let chun_niu_shui_dan_huo_shu_chun_ren_yi_dui_xin_nian_jue_se_de_fu_ke_draws = ref(0)
+let chun_niu_shui_dan_huo_shu_chun_ren_yi_dui_xin_nian_jue_se_de_fu_ke_stars = ref(0)
+
+let yi_zhou_nian_quan_bu_jue_se_fu_ke_draws = ref(0)
+let yi_zhou_nian_quan_bu_jue_se_fu_ke_stars = ref(0)
+
+let lei_mu_fu_ke_draws = ref(0)
+let lei_mu_fu_ke_stars = ref(0)
+
+let PCR_xiao_xiao_tian_xin_draws = ref(0)
+let PCR_xiao_xiao_tian_xin_stars = ref(0)
+
 function computeConsumeDiamonds() {
   let ret = 0
   ret += san_jie_chi_li_yu_li_chong_li_cang_wei_draws.value
@@ -147,6 +219,30 @@ function computeConsumeDiamonds() {
   ret += guang_pao_sheng_nv_chang_zhu_pian_ke_draws.value
   ret += chun_niu_fu_ke_draws.value
   ret += huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_draws.value
+  ret += zang_bian_ya_li_ya_draws.value
+  ret += yong_huang_nv_yong_jing_cha_yong_long_qi_jia_shui_da_nai_draws.value
+  ret += long_quan_shui_tan_zhan_tie_pian_ke_chi_draws.value
+  ret += yong_02_draws.value
+  ret += shen_hai_nai_guang_wang_zi_feng_nai_huo_lang_yi_yi_bu_ming_chi_draws.value
+  ret += yong_e_yong_hu_draws.value
+  ret += liang_gong_chun_ri_ka_chi_draws.value
+  ret += yu_feng_gei_yu_hei_draws.value
+  ret += xin_jiao_guang_da_shu_draws.value
+  ret += gou_quan_draws.value
+  ret += wan_sheng_yi_qi_fu_ke_wan_sheng_ge_ji_wan_hua_draws.value
+  ret += wan_sheng_er_qi_wan_sheng_zou_zhe_wan_sheng_tai_mu_draws.value
+  ret += yuki_ci_xiao_gui_draws.value
+  ret += da_lei_long_chang_zhu_draws.value
+  ret += li_chong_li_yu_li_cang_wei_fu_ke_draws.value
+  ret += er_zhou_nian_bai_mao_xing_chuan_draws.value
+  ret += er_zhou_nian_xing_bai_xing_bing_le_draws.value
+  ret += sheng_dan_tu_tu_sheng_dan_bing_mo_yan_draws.value
+  ret += sheng_long_sheng_a_fu_ke_draws.value
+  ret += chun_mo_nv_hu_shen_jiang_chun_sheng_nv_draws.value
+  ret += chun_niu_shui_dan_huo_shu_chun_ren_yi_dui_xin_nian_jue_se_de_fu_ke_draws.value
+  ret += yi_zhou_nian_quan_bu_jue_se_fu_ke_draws.value
+  ret += lei_mu_fu_ke_draws.value
+  ret += PCR_xiao_xiao_tian_xin_draws.value
   return 150 * ret
 }
 function computeConsumeStars() {
@@ -159,6 +255,30 @@ function computeConsumeStars() {
   ret += guang_pao_sheng_nv_chang_zhu_pian_ke_stars.value
   ret += chun_niu_fu_ke_stars.value
   ret += huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_stars.value
+  ret += zang_bian_ya_li_ya_stars.value
+  ret += yong_huang_nv_yong_jing_cha_yong_long_qi_jia_shui_da_nai_stars.value
+  ret += long_quan_shui_tan_zhan_tie_pian_ke_chi_stars.value
+  ret += yong_02_stars.value
+  ret += shen_hai_nai_guang_wang_zi_feng_nai_huo_lang_yi_yi_bu_ming_chi_stars.value
+  ret += yong_e_yong_hu_stars.value
+  ret += liang_gong_chun_ri_ka_chi_stars.value
+  ret += yu_feng_gei_yu_hei_stars.value
+  ret += xin_jiao_guang_da_shu_stars.value
+  ret += gou_quan_stars.value
+  ret += wan_sheng_yi_qi_fu_ke_wan_sheng_ge_ji_wan_hua_stars.value
+  ret += wan_sheng_er_qi_wan_sheng_zou_zhe_wan_sheng_tai_mu_stars.value
+  ret += yuki_ci_xiao_gui_stars.value
+  ret += da_lei_long_chang_zhu_stars.value
+  ret += li_chong_li_yu_li_cang_wei_fu_ke_stars.value
+  ret += er_zhou_nian_bai_mao_xing_chuan_stars.value
+  ret += er_zhou_nian_xing_bai_xing_bing_le_stars.value
+  ret += sheng_dan_tu_tu_sheng_dan_bing_mo_yan_stars.value
+  ret += sheng_long_sheng_a_fu_ke_stars.value
+  ret += chun_mo_nv_hu_shen_jiang_chun_sheng_nv_stars.value
+  ret += chun_niu_shui_dan_huo_shu_chun_ren_yi_dui_xin_nian_jue_se_de_fu_ke_stars.value
+  ret += yi_zhou_nian_quan_bu_jue_se_fu_ke_stars.value
+  ret += lei_mu_fu_ke_stars.value
+  ret += PCR_xiao_xiao_tian_xin_stars.value
   return ret
 }
 
@@ -219,7 +339,7 @@ function computeConsumeStars() {
       </n-layout-sider>
       <n-layout content-style="padding: 24px;" :native-scrollbar="false">
         <n-timeline>
-          <n-timeline-item type="error" title="三杰池礼鱼礼铳礼仓唯" time="2023-03-20">
+          <n-timeline-item type="error" title="三杰池礼鱼礼铳礼仓唯" time="2023-03-09">
             <n-space vertical #default>
               1.5周年三杰
               <n-input-number v-model:value="san_jie_chi_li_yu_li_chong_li_cang_wei_draws" :min="0">
@@ -303,6 +423,270 @@ function computeConsumeStars() {
                 <template #prefix>投入多少抽？</template>
               </n-input-number>
               <n-input-number v-model:value="huo_shu_e_zi_lao_nan_ren_deng_nai_pian_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="success" title="脏辫亚里亚" time="2023-04-27">
+            <n-space vertical #default>
+              还算OK的一个池子
+              <n-input-number v-model:value="zang_bian_ya_li_ya_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="zang_bian_ya_li_ya_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="warning" title="泳皇女泳警察泳龙骑加水大奶" time="2023-05-04">
+            <n-space vertical #default>
+              很大(泳龙骑值得一捞)
+              <n-input-number v-model:value="yong_huang_nv_yong_jing_cha_yong_long_qi_jia_shui_da_nai_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="yong_huang_nv_yong_jing_cha_yong_long_qi_jia_shui_da_nai_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="info" title="龙拳水碳斩铁骗氪池" time="2023-05-17">
+            <n-space vertical #default>
+              都是重量级但是不想抽
+              <n-input-number v-model:value="long_quan_shui_tan_zhan_tie_pian_ke_chi_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="long_quan_shui_tan_zhan_tie_pian_ke_chi_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="warning" title="泳02" time="2023-05-24">
+            <n-space vertical #default>
+              强度换立绘
+              <n-input-number v-model:value="yong_02_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="yong_02_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="info" title="深海奶光王子风奶火狼意义不明池" time="2023-06-06">
+            <n-space vertical #default>
+              意义不明
+              <n-input-number v-model:value="shen_hai_nai_guang_wang_zi_feng_nai_huo_lang_yi_yi_bu_ming_chi_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="shen_hai_nai_guang_wang_zi_feng_nai_huo_lang_yi_yi_bu_ming_chi_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="warning" title="泳蛾泳狐" time="2023-06-13">
+            <n-space vertical #default>
+              纯色风PF光PF
+              <n-input-number v-model:value="yong_e_yong_hu_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="yong_e_yong_hu_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="warning" title="凉宫春日卡池" time="2023-06-26">
+            <n-space vertical #default>
+              联动限定，可捞
+              <n-input-number v-model:value="liang_gong_chun_ri_ka_chi_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="liang_gong_chun_ri_ka_chi_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="success" title="浴风给浴黑" time="2023-07-09">
+            <n-space vertical #default>
+              一般般
+              <n-input-number v-model:value="yu_feng_gei_yu_hei_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="yu_feng_gei_yu_hei_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="success" title="心角光大叔" time="2023-07-22">
+            <n-space vertical #default>
+              常驻池，谨慎
+              <n-input-number v-model:value="xin_jiao_guang_da_shu_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="xin_jiao_guang_da_shu_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="error" title="狗拳" time="2023-07-29">
+            <n-space vertical #default>
+              最推荐付费井拿下的卡池之一
+              <n-input-number v-model:value="gou_quan_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="gou_quan_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="success" title="万圣一期复刻万圣歌姬万化" time="2023-08-11">
+            <n-space vertical #default>
+              万化她真的很强
+              <n-input-number v-model:value="wan_sheng_yi_qi_fu_ke_wan_sheng_ge_ji_wan_hua_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="wan_sheng_yi_qi_fu_ke_wan_sheng_ge_ji_wan_hua_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="success" title="万圣二期万圣奏者万圣太母" time="2023-08-18">
+            <n-space vertical #default>
+              太母不太行
+              <n-input-number v-model:value="wan_sheng_er_qi_wan_sheng_zou_zhe_wan_sheng_tai_mu_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="wan_sheng_er_qi_wan_sheng_zou_zhe_wan_sheng_tai_mu_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="success" title="yuki雌小鬼" time="2023-08-31">
+            <n-space vertical #default>
+              JKJKJKJK
+              <n-input-number v-model:value="yuki_ci_xiao_gui_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="yuki_ci_xiao_gui_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="info" title="大雷龙常驻" time="2023-09-07">
+            <n-space vertical #default>
+              大雷龙
+              <n-input-number v-model:value="da_lei_long_chang_zhu_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="da_lei_long_chang_zhu_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="warning" title="礼铳礼鱼礼仓唯复刻" time="2023-09-13">
+            <n-space vertical #default>
+              没有的可以捞下
+              <n-input-number v-model:value="li_chong_li_yu_li_cang_wei_fu_ke_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="li_chong_li_yu_li_cang_wei_fu_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="error" title="二周年白猫星船" time="2023-09-20">
+            <n-space vertical #default>
+              建议全部拿下
+              <n-input-number v-model:value="er_zhou_nian_bai_mao_xing_chuan_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="er_zhou_nian_bai_mao_xing_chuan_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="warning" title="二周年星白星冰乐" time="2023-10-04">
+            <n-space vertical #default>
+              还是不错的
+              <n-input-number v-model:value="er_zhou_nian_xing_bai_xing_bing_le_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="er_zhou_nian_xing_bai_xing_bing_le_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="success" title="圣诞兔兔圣诞冰魔眼" time="2023-10-11">
+            <n-space vertical #default>
+              
+              <n-input-number v-model:value="sheng_dan_tu_tu_sheng_dan_bing_mo_yan_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="sheng_dan_tu_tu_sheng_dan_bing_mo_yan_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="error" title="圣龙圣阿复刻" time="2023-10-18">
+            <n-space vertical #default>
+              
+              <n-input-number v-model:value="sheng_long_sheng_a_fu_ke_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="sheng_long_sheng_a_fu_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="warning" title="春魔女虎神将春圣女" time="2023-10-25">
+            <n-space vertical #default>
+              
+              <n-input-number v-model:value="chun_mo_nv_hu_shen_jiang_chun_sheng_nv_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="chun_mo_nv_hu_shen_jiang_chun_sheng_nv_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="success" title="春牛水弹火鼠春忍一堆新年角色的复刻" time="2023-11-02">
+            <n-space vertical #default>
+              
+              <n-input-number v-model:value="chun_niu_shui_dan_huo_shu_chun_ren_yi_dui_xin_nian_jue_se_de_fu_ke_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="chun_niu_shui_dan_huo_shu_chun_ren_yi_dui_xin_nian_jue_se_de_fu_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="warning" title="一周年全部角色复刻" time="2023-11-02">
+            <n-space vertical #default>
+              
+              <n-input-number v-model:value="yi_zhou_nian_quan_bu_jue_se_fu_ke_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="yi_zhou_nian_quan_bu_jue_se_fu_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="success" title="雷姆复刻" time="2023-11-09">
+            <n-space vertical #default>
+              
+              <n-input-number v-model:value="lei_mu_fu_ke_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="lei_mu_fu_ke_stars" :min="0">
+                <template #prefix>投入多少星碎？</template>
+              </n-input-number>
+            </n-space>
+          </n-timeline-item>
+          <n-timeline-item type="success" title="PCR小小甜心" time="2023-11-16">
+            <n-space vertical #default>
+              
+              <n-input-number v-model:value="PCR_xiao_xiao_tian_xin_draws" :min="0">
+                <template #prefix>投入多少抽？</template>
+              </n-input-number>
+              <n-input-number v-model:value="PCR_xiao_xiao_tian_xin_stars" :min="0">
                 <template #prefix>投入多少星碎？</template>
               </n-input-number>
             </n-space>
